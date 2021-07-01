@@ -9,7 +9,7 @@ $birthday=$_POST['birthday'];
 $height=$_POST['height'];
 $weight=$_POST['weight'];
 $sexe=$_POST['sexe'];
- echo $sexe;
+ 
 
 
     if(!empty($fstname) && !empty($lstname) && !empty($pass)&& !empty($email)&&!empty($birthday)&&!empty($height)&&!empty($weight)&&!empty($sexe)){

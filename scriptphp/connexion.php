@@ -10,9 +10,9 @@
             if($connect->connect_error){
                 die('Erreur : ' .$connect->connect_error);
             }
-            else{
+          /*  else{
                 echo 'Connexion réussie';
-            }
+            }*/
             
             
             
