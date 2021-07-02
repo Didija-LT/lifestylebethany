@@ -1,6 +1,10 @@
 <?php
 include_once 'connexion.php';
 
+session_start();
+if(isset($_POST['email']) && isset($_POST['password']))
+{
+
 $email=$_POST['email'];
 $pass=$_POST['password'];
 
@@ -25,3 +29,4 @@ if($email !== "" && $pass !== ""){
     {
        header('Location:  ../login.html'); // utilisateur ou mot de passe vide
     }
+   }

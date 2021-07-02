@@ -17,7 +17,7 @@ $sexe=$_POST['sexe'];
         VALUES ('".$fstname."','".$lstname."','".$birthday."','".$sexe."','".$height."','".$weight."','".$email."','".$pass."')";
         mysqli_query($connect,$sql);
 
-        header('Location: ../service.html');
+        header('Location: ../login.html');
         
     }
     else{

@@ -9,6 +9,7 @@
             //On vérifie la connexion
             if($connect->connect_error){
                 die('Erreur : ' .$connect->connect_error);
+                
             }
           /*  else{
                 echo 'Connexion réussie';
