@@ -62,10 +62,9 @@ include_once 'connexion.php';
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto active" href="../index.html">Home</a></li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="service.html">Services</a></li>
-            <li><a class="nav-link scrollto " href="#Portfolio">Our Market</a></li>
             <li><a class="nav-link scrollto" href="#Sport">Sport</a></li>
             <li><a class="nav-link scrollto" href="#Sport">food</a></li>
           <!--  <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
